@@ -1,0 +1,59 @@
+# ==== 個人データ・制限アクセスデータは絶対にコミットしない ====
+# BBJ 個票データ（ジェノタイプ・表現型・臨床情報）は data/ 以下に置き、Git 管理外とする
+data/**
+!data/**/
+!data/**/.gitkeep
+!data/README.md
+
+# ゲノム関連ファイル形式（data/ 外に置いた場合の保険）
+*.bed
+*.bim
+*.fam
+*.pgen
+*.pvar
+*.psam
+*.bgen
+*.bgen.bgi
+*.sample
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.gen
+*.dosage*
+*.ped
+*.map
+
+# 表現型・個票系
+*phenotype*
+*pheno*.txt
+*covar*.txt
+*.sas7bdat
+*.dta
+*.sav
+*.xlsx
+*.xls
+
+# 解析結果（個人レベル・大容量）
+results/**
+!results/**/
+!results/**/.gitkeep
+logs/**
+!logs/.gitkeep
+
+# 認証情報
+.env
+*.pem
+*.key
+credentials*
+
+# 環境
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+renv/library/
+.DS_Store

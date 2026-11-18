@@ -1,0 +1,30 @@
+# 解析パラメータ（テーマ確定後に更新）
+project: BBJ-001-OR-TAS-AL
+genome_build: GRCh37   # BBJ の利用データに合わせて確認（GRCh37/38）
+
+paths:
+  genotype_prefix: data/raw/CHANGE_ME
+  imputed_dir: data/raw/CHANGE_ME
+  phenotype: data/processed/phenotype.tsv
+  covariates: data/processed/covariates.tsv
+
+phenotype:
+  name: CHANGE_ME
+  type: binary          # binary | quantitative
+  case_definition: ""
+  control_definition: ""
+
+covariates: [age, sex, PC1, PC2, PC3, PC4, PC5, PC6, PC7, PC8, PC9, PC10]
+
+qc:
+  sample_call_rate: 0.98
+  variant_call_rate: 0.99
+  hwe_p: 1.0e-6
+  maf: 0.01            # 関連解析時。稀なバリアント解析では別設定
+  imputation_info: 0.3  # Rsq / INFO
+  relatedness_pi_hat: 0.1875  # 2親等（REGENIE 使用時は除外不要）
+
+gwas:
+  tool: regenie
+  significance: 5.0e-8
+  suggestive: 1.0e-6
