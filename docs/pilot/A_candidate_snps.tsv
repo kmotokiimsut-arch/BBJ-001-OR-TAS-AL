@@ -1,0 +1,106 @@
+rsid	gene	group	note	variant	effect_allele	phenocode	phenotype	af	imp_r2	cases	controls	OR	CI95	pval	sig	MDE_OR	status
+rs671	ALDH2	アルコール代謝	Glu504Lys（ALDH2*2, 不活性型）	12:112241766-G-A	A	IS	Ischemic stroke（脳梗塞）	0.25	0.999924	22664	152022	0.896	0.873-0.919	2e-18	Bonferroni	1.057	ok
+rs671	ALDH2	アルコール代謝	Glu504Lys（ALDH2*2, 不活性型）	12:112241766-G-A	A	CeAn	Cerebral aneurysm（脳動脈瘤）	0.25	0.999924	3132	152022	0.933	0.878-0.992	0.024	nominal	1.141	ok
+rs671	ALDH2	アルコール代謝	Glu504Lys（ALDH2*2, 不活性型）	12:112241766-G-A	A	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.25	0.999924	1203	152022	0.908	0.824-0.999	0.046	nominal	1.231	ok
+rs671	ALDH2	アルコール代謝	Glu504Lys（ALDH2*2, 不活性型）	12:112241766-G-A	A	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.25	0.999924	1456	152022	0.795	0.727-0.868	2e-07	Bonferroni	1.21	ok
+rs671	ALDH2	アルコール代謝	Glu504Lys（ALDH2*2, 不活性型）	12:112241766-G-A	A	Epilepsy	Epilepsy（てんかん）	0.25	0.999924	2466	175788	0.852	0.797-0.911	5.9e-06	Bonferroni	1.155	ok
+rs671	ALDH2	アルコール代謝	Glu504Lys（ALDH2*2, 不活性型）	12:112241766-G-A	A	Parkinsons_Disease	Parkinson's disease（探索的）	0.25	0.999924	340	175788	0.905	0.759-1.079	0.25			ok
+rs671	ALDH2	アルコール代謝	Glu504Lys（ALDH2*2, 不活性型）	12:112241766-G-A		Drinking_Ever_Never	Drinking ever/never（陽性対照）										欠測
+rs1229984	ADH1B	アルコール代謝	His48Arg（ADH1B*2, 高活性型）	4:100239319-T-C	C	IS	Ischemic stroke（脳梗塞）	0.24	0.924	22664	152022	1.008	0.983-1.034	0.52		1.057	ok
+rs1229984	ADH1B	アルコール代謝	His48Arg（ADH1B*2, 高活性型）	4:100239319-T-C	C	CeAn	Cerebral aneurysm（脳動脈瘤）	0.24	0.924	3132	152022	0.989	0.929-1.053	0.73		1.145	ok
+rs1229984	ADH1B	アルコール代謝	His48Arg（ADH1B*2, 高活性型）	4:100239319-T-C	C	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.24	0.924	1203	152022	1.139	1.033-1.256	0.0099	nominal	1.236	ok
+rs1229984	ADH1B	アルコール代謝	His48Arg（ADH1B*2, 高活性型）	4:100239319-T-C	C	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.24	0.924	1456	152022	0.969	0.886-1.061	0.5		1.216	ok
+rs1229984	ADH1B	アルコール代謝	His48Arg（ADH1B*2, 高活性型）	4:100239319-T-C	C	Epilepsy	Epilepsy（てんかん）	0.24	0.924	2466	175788	1.069	0.998-1.145	0.054		1.16	ok
+rs1229984	ADH1B	アルコール代謝	His48Arg（ADH1B*2, 高活性型）	4:100239319-T-C	C	Parkinsons_Disease	Parkinson's disease（探索的）	0.24	0.924	340	175788	1.06	0.881-1.274	0.54			ok
+rs1229984	ADH1B	アルコール代謝	His48Arg（ADH1B*2, 高活性型）	4:100239319-T-C		Drinking_Ever_Never	Drinking ever/never（陽性対照）										欠測
+rs3043	ALDH1B1	アルコール代謝	BBJ 飲酒 GWAS のリード SNP（Matoba 2020）	9:38397355-G-C	C	IS	Ischemic stroke（脳梗塞）	0.69	0.9986	22664	152022	0.993	0.970-1.016	0.52		1.052	ok
+rs3043	ALDH1B1	アルコール代謝	BBJ 飲酒 GWAS のリード SNP（Matoba 2020）	9:38397355-G-C	C	CeAn	Cerebral aneurysm（脳動脈瘤）	0.69	0.9986	3132	152022	0.942	0.891-0.995	0.035	nominal	1.126	ok
+rs3043	ALDH1B1	アルコール代謝	BBJ 飲酒 GWAS のリード SNP（Matoba 2020）	9:38397355-G-C	C	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.69	0.9986	1203	152022	0.969	0.887-1.058	0.47		1.21	ok
+rs3043	ALDH1B1	アルコール代謝	BBJ 飲酒 GWAS のリード SNP（Matoba 2020）	9:38397355-G-C	C	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.69	0.9986	1456	152022	0.983	0.907-1.065	0.68		1.19	ok
+rs3043	ALDH1B1	アルコール代謝	BBJ 飲酒 GWAS のリード SNP（Matoba 2020）	9:38397355-G-C	C	Epilepsy	Epilepsy（てんかん）	0.69	0.9986	2466	175788	1.05	0.988-1.116	0.12		1.141	ok
+rs3043	ALDH1B1	アルコール代謝	BBJ 飲酒 GWAS のリード SNP（Matoba 2020）	9:38397355-G-C	C	Parkinsons_Disease	Parkinson's disease（探索的）	0.69	0.9986	340	175788	1.064	0.904-1.252	0.46			ok
+rs3043	ALDH1B1	アルコール代謝	BBJ 飲酒 GWAS のリード SNP（Matoba 2020）	9:38397355-G-C	C	Drinking_Ever_Never	Drinking ever/never（陽性対照）	0.69	0.9984	83713	81371	0.985	0.982-0.988	3.2e-19	nominal		ok
+rs713598	TAS2R38	味覚	A49P（PAV/AVI ハプロタイプ）	7:141673345-C-G	G	IS	Ischemic stroke（脳梗塞）	0.5700000000000001	0.999912	22664	152022	1.011	0.989-1.033	0.33		1.048	ok
+rs713598	TAS2R38	味覚	A49P（PAV/AVI ハプロタイプ）	7:141673345-C-G	G	CeAn	Cerebral aneurysm（脳動脈瘤）	0.5700000000000001	0.999912	3132	152022	1.001	0.951-1.054	0.96		1.117	ok
+rs713598	TAS2R38	味覚	A49P（PAV/AVI ハプロタイプ）	7:141673345-C-G	G	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.5700000000000001	0.999912	1203	152022	1.019	0.939-1.107	0.66		1.195	ok
+rs713598	TAS2R38	味覚	A49P（PAV/AVI ハプロタイプ）	7:141673345-C-G	G	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.5700000000000001	0.999912	1456	152022	1.044	0.969-1.125	0.26		1.175	ok
+rs713598	TAS2R38	味覚	A49P（PAV/AVI ハプロタイプ）	7:141673345-C-G	G	Epilepsy	Epilepsy（てんかん）	0.5700000000000001	0.999912	2466	175788	0.994	0.939-1.052	0.84		1.131	ok
+rs713598	TAS2R38	味覚	A49P（PAV/AVI ハプロタイプ）	7:141673345-C-G	G	Parkinsons_Disease	Parkinson's disease（探索的）	0.5700000000000001	0.999912	340	175788	0.835	0.717-0.973	0.017	nominal		ok
+rs713598	TAS2R38	味覚	A49P（PAV/AVI ハプロタイプ）	7:141673345-C-G	G	Drinking_Ever_Never	Drinking ever/never（陽性対照）	0.5700000000000001	0.9952	83713	81371	0.994	0.991-0.996	2.2e-05	nominal		ok
+rs1726866	TAS2R38	味覚	V262A（PAV/AVI ハプロタイプ）	7:141672705-G-A	A	IS	Ischemic stroke（脳梗塞）	0.43	0.999958	22664	152022	0.99	0.969-1.012	0.34		1.048	ok
+rs1726866	TAS2R38	味覚	V262A（PAV/AVI ハプロタイプ）	7:141672705-G-A	A	CeAn	Cerebral aneurysm（脳動脈瘤）	0.43	0.999958	3132	152022	0.999	0.950-1.051	0.98		1.117	ok
+rs1726866	TAS2R38	味覚	V262A（PAV/AVI ハプロタイプ）	7:141672705-G-A	A	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.43	0.999958	1203	152022	0.984	0.906-1.069	0.71		1.195	ok
+rs1726866	TAS2R38	味覚	V262A（PAV/AVI ハプロタイプ）	7:141672705-G-A	A	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.43	0.999958	1456	152022	0.958	0.889-1.032	0.26		1.175	ok
+rs1726866	TAS2R38	味覚	V262A（PAV/AVI ハプロタイプ）	7:141672705-G-A	A	Epilepsy	Epilepsy（てんかん）	0.43	0.999958	2466	175788	1.006	0.950-1.064	0.85		1.131	ok
+rs1726866	TAS2R38	味覚	V262A（PAV/AVI ハプロタイプ）	7:141672705-G-A	A	Parkinsons_Disease	Parkinson's disease（探索的）	0.43	0.999958	340	175788	1.209	1.038-1.409	0.016	nominal		ok
+rs1726866	TAS2R38	味覚	V262A（PAV/AVI ハプロタイプ）	7:141672705-G-A		Drinking_Ever_Never	Drinking ever/never（陽性対照）										欠測
+rs10246939	TAS2R38	味覚	I296V（PAV/AVI ハプロタイプ）	7:141672604-T-C	C	IS	Ischemic stroke（脳梗塞）	0.5700000000000001	0.999911	22664	152022	1.01	0.989-1.032	0.34		1.048	ok
+rs10246939	TAS2R38	味覚	I296V（PAV/AVI ハプロタイプ）	7:141672604-T-C	C	CeAn	Cerebral aneurysm（脳動脈瘤）	0.5700000000000001	0.999911	3132	152022	1.001	0.951-1.053	0.98		1.117	ok
+rs10246939	TAS2R38	味覚	I296V（PAV/AVI ハプロタイプ）	7:141672604-T-C	C	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.5700000000000001	0.999911	1203	152022	1.016	0.936-1.103	0.71		1.195	ok
+rs10246939	TAS2R38	味覚	I296V（PAV/AVI ハプロタイプ）	7:141672604-T-C	C	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.5700000000000001	0.999911	1456	152022	1.044	0.969-1.125	0.26		1.175	ok
+rs10246939	TAS2R38	味覚	I296V（PAV/AVI ハプロタイプ）	7:141672604-T-C	C	Epilepsy	Epilepsy（てんかん）	0.5700000000000001	0.999911	2466	175788	0.995	0.940-1.053	0.86		1.131	ok
+rs10246939	TAS2R38	味覚	I296V（PAV/AVI ハプロタイプ）	7:141672604-T-C	C	Parkinsons_Disease	Parkinson's disease（探索的）	0.5700000000000001	0.999911	340	175788	0.827	0.710-0.964	0.016	nominal		ok
+rs10246939	TAS2R38	味覚	I296V（PAV/AVI ハプロタイプ）	7:141672604-T-C	C	Drinking_Ever_Never	Drinking ever/never（陽性対照）	0.5700000000000001	0.99991	83713	81371	0.994	0.991-0.997	2.6e-05	nominal		ok
+rs10772420	TAS2R19	味覚	R299C（キニーネ・グレープフルーツの苦味）	12:11174276-G-A	A	IS	Ischemic stroke（脳梗塞）	0.23	0.999968	22664	152022	1.004	0.979-1.030	0.75		1.057	ok
+rs10772420	TAS2R19	味覚	R299C（キニーネ・グレープフルーツの苦味）	12:11174276-G-A	A	CeAn	Cerebral aneurysm（脳動脈瘤）	0.23	0.999968	3132	152022	0.999	0.940-1.061	0.96		1.141	ok
+rs10772420	TAS2R19	味覚	R299C（キニーネ・グレープフルーツの苦味）	12:11174276-G-A	A	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.23	0.999968	1203	152022	1.067	0.969-1.175	0.18		1.231	ok
+rs10772420	TAS2R19	味覚	R299C（キニーネ・グレープフルーツの苦味）	12:11174276-G-A	A	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.23	0.999968	1456	152022	1.041	0.955-1.135	0.37		1.205	ok
+rs10772420	TAS2R19	味覚	R299C（キニーネ・グレープフルーツの苦味）	12:11174276-G-A	A	Epilepsy	Epilepsy（てんかん）	0.23	0.999968	2466	175788	1.022	0.956-1.093	0.52		1.155	ok
+rs10772420	TAS2R19	味覚	R299C（キニーネ・グレープフルーツの苦味）	12:11174276-G-A	A	Parkinsons_Disease	Parkinson's disease（探索的）	0.23	0.999968	340	175788	0.954	0.798-1.140	0.61			ok
+rs10772420	TAS2R19	味覚	R299C（キニーネ・グレープフルーツの苦味）	12:11174276-G-A		Drinking_Ever_Never	Drinking ever/never（陽性対照）										欠測
+rs35874116	TAS1R2	味覚	I191V（甘味）	1:19181393-T-C	C	IS	Ischemic stroke（脳梗塞）	0.12	0.9982	22664	152022	0.985	0.953-1.018	0.36		1.075	ok
+rs35874116	TAS1R2	味覚	I191V（甘味）	1:19181393-T-C	C	CeAn	Cerebral aneurysm（脳動脈瘤）	0.12	0.9982	3132	152022	0.938	0.867-1.015	0.11		1.185	ok
+rs35874116	TAS1R2	味覚	I191V（甘味）	1:19181393-T-C	C	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.12	0.9982	1203	152022	0.917	0.809-1.039	0.17		1.312	ok
+rs35874116	TAS1R2	味覚	I191V（甘味）	1:19181393-T-C	C	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.12	0.9982	1456	152022	0.965	0.859-1.083	0.53		1.285	ok
+rs35874116	TAS1R2	味覚	I191V（甘味）	1:19181393-T-C	C	Epilepsy	Epilepsy（てんかん）	0.12	0.9982	2466	175788	1.095	1.003-1.196	0.043	nominal	1.21	ok
+rs35874116	TAS1R2	味覚	I191V（甘味）	1:19181393-T-C	C	Parkinsons_Disease	Parkinson's disease（探索的）	0.12	0.9982	340	175788	1.03	0.814-1.304	0.8			ok
+rs35874116	TAS1R2	味覚	I191V（甘味）	1:19181393-T-C		Drinking_Ever_Never	Drinking ever/never（陽性対照）										欠測
+rs307355	TAS1R3	味覚	プロモーター（甘味の感度）	1:1265154-T-C	C	IS	Ischemic stroke（脳梗塞）	0.81	0.9987	22664	152022	1.002	0.975-1.030	0.9		1.061	ok
+rs307355	TAS1R3	味覚	プロモーター（甘味の感度）	1:1265154-T-C	C	CeAn	Cerebral aneurysm（脳動脈瘤）	0.81	0.9987	3132	152022	1.041	0.976-1.110	0.23		1.15	ok
+rs307355	TAS1R3	味覚	プロモーター（甘味の感度）	1:1265154-T-C	C	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.81	0.9987	1203	152022	1.026	0.925-1.139	0.62		1.252	ok
+rs307355	TAS1R3	味覚	プロモーター（甘味の感度）	1:1265154-T-C	C	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.81	0.9987	1456	152022	1.039	0.945-1.141	0.43		1.226	ok
+rs307355	TAS1R3	味覚	プロモーター（甘味の感度）	1:1265154-T-C	C	Epilepsy	Epilepsy（てんかん）	0.81	0.9987	2466	175788	1.059	0.985-1.138	0.13		1.17	ok
+rs307355	TAS1R3	味覚	プロモーター（甘味の感度）	1:1265154-T-C	C	Parkinsons_Disease	Parkinson's disease（探索的）	0.81	0.9987	340	175788	0.982	0.811-1.190	0.86			ok
+rs307355	TAS1R3	味覚	プロモーター（甘味の感度）	1:1265154-T-C	C	Drinking_Ever_Never	Drinking ever/never（陽性対照）	0.81	0.967	83713	81371	1.003	0.999-1.006	0.18			ok
+rs34160967	TAS1R1	味覚	A372T（旨味）	1:6635306-G-A	A	IS	Ischemic stroke（脳梗塞）	0.39	0.99914	22664	152022	1.018	0.996-1.040	0.098		1.048	ok
+rs34160967	TAS1R1	味覚	A372T（旨味）	1:6635306-G-A	A	CeAn	Cerebral aneurysm（脳動脈瘤）	0.39	0.99914	3132	152022	0.996	0.945-1.050	0.89		1.121	ok
+rs34160967	TAS1R1	味覚	A372T（旨味）	1:6635306-G-A	A	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.39	0.99914	1203	152022	1.02	0.940-1.108	0.64		1.195	ok
+rs34160967	TAS1R1	味覚	A372T（旨味）	1:6635306-G-A	A	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.39	0.99914	1456	152022	1.042	0.965-1.125	0.29		1.18	ok
+rs34160967	TAS1R1	味覚	A372T（旨味）	1:6635306-G-A	A	Epilepsy	Epilepsy（てんかん）	0.39	0.99914	2466	175788	0.981	0.925-1.041	0.52		1.136	ok
+rs34160967	TAS1R1	味覚	A372T（旨味）	1:6635306-G-A	A	Parkinsons_Disease	Parkinson's disease（探索的）	0.39	0.99914	340	175788	1.209	1.036-1.412	0.016	nominal		ok
+rs34160967	TAS1R1	味覚	A372T（旨味）	1:6635306-G-A		Drinking_Ever_Never	Drinking ever/never（陽性対照）										欠測
+rs61729907	OR7D4	嗅覚	R88W（アンドロステノン）	19:9325252-G-A	A	IS	Ischemic stroke（脳梗塞）	0.24	0.963	22664	152022	1.016	0.991-1.042	0.21		1.057	ok
+rs61729907	OR7D4	嗅覚	R88W（アンドロステノン）	19:9325252-G-A	A	CeAn	Cerebral aneurysm（脳動脈瘤）	0.24	0.963	3132	152022	1.046	0.984-1.112	0.16		1.141	ok
+rs61729907	OR7D4	嗅覚	R88W（アンドロステノン）	19:9325252-G-A	A	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.24	0.963	1203	152022	1.017	0.924-1.120	0.74		1.231	ok
+rs61729907	OR7D4	嗅覚	R88W（アンドロステノン）	19:9325252-G-A	A	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.24	0.963	1456	152022	0.963	0.881-1.051	0.4		1.21	ok
+rs61729907	OR7D4	嗅覚	R88W（アンドロステノン）	19:9325252-G-A	A	Epilepsy	Epilepsy（てんかん）	0.24	0.963	2466	175788	0.956	0.893-1.024	0.19		1.16	ok
+rs61729907	OR7D4	嗅覚	R88W（アンドロステノン）	19:9325252-G-A	A	Parkinsons_Disease	Parkinson's disease（探索的）	0.24	0.963	340	175788	1.15	0.960-1.378	0.13			ok
+rs61729907	OR7D4	嗅覚	R88W（アンドロステノン）	19:9325252-G-A		Drinking_Ever_Never	Drinking ever/never（陽性対照）										欠測
+rs5020278	OR7D4	嗅覚	T133M（アンドロステノン）	19:9325116-G-A	A	IS	Ischemic stroke（脳梗塞）	0.24	0.963	22664	152022	1.016	0.991-1.042	0.22		1.057	ok
+rs5020278	OR7D4	嗅覚	T133M（アンドロステノン）	19:9325116-G-A	A	CeAn	Cerebral aneurysm（脳動脈瘤）	0.24	0.963	3132	152022	1.045	0.983-1.110	0.16		1.141	ok
+rs5020278	OR7D4	嗅覚	T133M（アンドロステノン）	19:9325116-G-A	A	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.24	0.963	1203	152022	1.015	0.922-1.117	0.76		1.231	ok
+rs5020278	OR7D4	嗅覚	T133M（アンドロステノン）	19:9325116-G-A	A	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.24	0.963	1456	152022	0.964	0.882-1.053	0.41		1.21	ok
+rs5020278	OR7D4	嗅覚	T133M（アンドロステノン）	19:9325116-G-A	A	Epilepsy	Epilepsy（てんかん）	0.24	0.963	2466	175788	0.955	0.892-1.023	0.19		1.16	ok
+rs5020278	OR7D4	嗅覚	T133M（アンドロステノン）	19:9325116-G-A	A	Parkinsons_Disease	Parkinson's disease（探索的）	0.24	0.963	340	175788	1.15	0.960-1.378	0.14			ok
+rs5020278	OR7D4	嗅覚	T133M（アンドロステノン）	19:9325116-G-A		Drinking_Ever_Never	Drinking ever/never（陽性対照）										欠測
+rs6591536	OR5A1	嗅覚	N183D（β-イオノン）	11:59211188-G-A	A	IS	Ischemic stroke（脳梗塞）	0.6699999999999999	0.99999984	22664	152022	0.998	0.977-1.020	0.87		1.048	ok
+rs6591536	OR5A1	嗅覚	N183D（β-イオノン）	11:59211188-G-A	A	CeAn	Cerebral aneurysm（脳動脈瘤）	0.6699999999999999	0.99999984	3132	152022	1.005	0.951-1.061	0.87		1.126	ok
+rs6591536	OR5A1	嗅覚	N183D（β-イオノン）	11:59211188-G-A	A	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.6699999999999999	0.99999984	1203	152022	0.975	0.895-1.063	0.56		1.205	ok
+rs6591536	OR5A1	嗅覚	N183D（β-イオノン）	11:59211188-G-A	A	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.6699999999999999	0.99999984	1456	152022	0.97	0.897-1.050	0.45		1.185	ok
+rs6591536	OR5A1	嗅覚	N183D（β-イオノン）	11:59211188-G-A	A	Epilepsy	Epilepsy（てんかん）	0.6699999999999999	0.99999984	2466	175788	0.998	0.941-1.058	0.95		1.136	ok
+rs6591536	OR5A1	嗅覚	N183D（β-イオノン）	11:59211188-G-A	A	Parkinsons_Disease	Parkinson's disease（探索的）	0.6699999999999999	0.99999984	340	175788	0.919	0.782-1.079	0.3			ok
+rs6591536	OR5A1	嗅覚	N183D（β-イオノン）	11:59211188-G-A	A	Drinking_Ever_Never	Drinking ever/never（陽性対照）	0.6699999999999999	1.0	83713	81371	0.999	0.996-1.002	0.55			ok
+rs28757581	OR2J3	嗅覚	T113A（cis-3-hexen-1-ol）	6:29080004-A-G	G	IS	Ischemic stroke（脳梗塞）	0.11	0.9983	22664	152022	1.023	0.990-1.058	0.17		1.075	ok
+rs28757581	OR2J3	嗅覚	T113A（cis-3-hexen-1-ol）	6:29080004-A-G	G	CeAn	Cerebral aneurysm（脳動脈瘤）	0.11	0.9983	3132	152022	0.951	0.876-1.033	0.23		1.195	ok
+rs28757581	OR2J3	嗅覚	T113A（cis-3-hexen-1-ol）	6:29080004-A-G	G	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.11	0.9983	1203	152022	0.917	0.805-1.043	0.18		1.323	ok
+rs28757581	OR2J3	嗅覚	T113A（cis-3-hexen-1-ol）	6:29080004-A-G	G	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.11	0.9983	1456	152022	0.996	0.885-1.120	0.94		1.29	ok
+rs28757581	OR2J3	嗅覚	T113A（cis-3-hexen-1-ol）	6:29080004-A-G	G	Epilepsy	Epilepsy（てんかん）	0.11	0.9983	2466	175788	0.997	0.911-1.091	0.94		1.216	ok
+rs28757581	OR2J3	嗅覚	T113A（cis-3-hexen-1-ol）	6:29080004-A-G	G	Parkinsons_Disease	Parkinson's disease（探索的）	0.11	0.9983	340	175788	0.844	0.667-1.067	0.16			ok
+rs28757581	OR2J3	嗅覚	T113A（cis-3-hexen-1-ol）	6:29080004-A-G		Drinking_Ever_Never	Drinking ever/never（陽性対照）										欠測
+rs72921001	OR6A2	嗅覚	近傍 SNP（コリアンダーの嗜好）	11:6889648-C-A	A	IS	Ischemic stroke（脳梗塞）	0.27	0.9988	22664	152022	1.013	0.990-1.037	0.28		1.052	ok
+rs72921001	OR6A2	嗅覚	近傍 SNP（コリアンダーの嗜好）	11:6889648-C-A	A	CeAn	Cerebral aneurysm（脳動脈瘤）	0.27	0.9988	3132	152022	1.028	0.972-1.089	0.35		1.131	ok
+rs72921001	OR6A2	嗅覚	近傍 SNP（コリアンダーの嗜好）	11:6889648-C-A	A	Subarachnoid_Hemorrhage	Subarachnoid hemorrhage（クモ膜下出血）	0.27	0.9988	1203	152022	1.021	0.933-1.118	0.64		1.216	ok
+rs72921001	OR6A2	嗅覚	近傍 SNP（コリアンダーの嗜好）	11:6889648-C-A	A	Intracerebral_Hemorrhage	Intracerebral hemorrhage（脳出血）	0.27	0.9988	1456	152022	1.006	0.927-1.092	0.88		1.195	ok
+rs72921001	OR6A2	嗅覚	近傍 SNP（コリアンダーの嗜好）	11:6889648-C-A	A	Epilepsy	Epilepsy（てんかん）	0.27	0.9988	2466	175788	0.911	0.856-0.970	0.0041	nominal	1.145	ok
+rs72921001	OR6A2	嗅覚	近傍 SNP（コリアンダーの嗜好）	11:6889648-C-A	A	Parkinsons_Disease	Parkinson's disease（探索的）	0.27	0.9988	340	175788	0.989	0.836-1.171	0.9			ok
+rs72921001	OR6A2	嗅覚	近傍 SNP（コリアンダーの嗜好）	11:6889648-C-A		Drinking_Ever_Never	Drinking ever/never（陽性対照）										欠測
