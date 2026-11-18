@@ -5,6 +5,7 @@
 - 研究計画: [`docs/study_plan.md`](docs/study_plan.md)
 - 計画の検討メモ: [`docs/study_plan_review.md`](docs/study_plan_review.md)
 - 先行研究: [`docs/literature/literature_review.md`](docs/literature/literature_review.md)
+- 予備解析（公開サマリー統計）: [`docs/pilot/README.md`](docs/pilot/README.md)
 - PubMed 検索: `python3 scripts/00_setup/pubmed_search.py "<query>"`
 
 ## ディレクトリ構成
