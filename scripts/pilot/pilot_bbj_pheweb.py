@@ -38,8 +38,8 @@ REGION_PHENOS = {**TARGET, **EXPLORATORY, **POSITIVE_CONTROL}
 
 # 事前に指定する候補 SNP（文献で機能が知られているもの）
 CANDIDATE_SNPS = [
-    ("rs671", "ALDH2", "Glu504Lys（ALDH2*2, 不活性型）", "アルコール代謝"),
-    ("rs1229984", "ADH1B", "His48Arg（ADH1B*2, 高活性型）", "アルコール代謝"),
+    ("rs671", "ALDH2", "Glu504Lys（alt A = ALDH2*2, 不活性型）", "アルコール代謝"),
+    ("rs1229984", "ADH1B", "Arg48His（alt C = Arg48 = ADH1B*1, 低活性型）", "アルコール代謝"),
     ("rs3043", "ALDH1B1", "BBJ 飲酒 GWAS のリード SNP（Matoba 2020）", "アルコール代謝"),
     ("rs713598", "TAS2R38", "A49P（PAV/AVI ハプロタイプ）", "味覚"),
     ("rs1726866", "TAS2R38", "V262A（PAV/AVI ハプロタイプ）", "味覚"),
