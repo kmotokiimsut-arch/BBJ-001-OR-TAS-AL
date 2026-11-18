@@ -240,7 +240,7 @@ def main():
             rows_top.append(dict(rsid=rsid, gene=gene, variant=vid, phenocode=p["phenocode"],
                                  phenotype=p["phenostring"],
                                  OR=round(math.exp(p["beta"]), 3) if p.get("beta") is not None else "",
-                                 pval=p["pval"], af=p["af"]))
+                                 pval=p["pval"], af=p.get("af", "")))
     colsA = ["rsid", "gene", "group", "note", "variant", "effect_allele", "phenocode", "phenotype", "af",
              "imp_r2", "cases", "controls", "OR", "CI95", "pval", "sig", "MDE_OR", "status"]
     write_tsv("A_candidate_snps.tsv", rowsA, colsA)
