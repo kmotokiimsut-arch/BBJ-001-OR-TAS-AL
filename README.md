@@ -1,8 +1,11 @@
 # BBJ-001-OR-TAS-AL
 
-バイオバンク・ジャパン（BBJ）データを用いたゲノム解析（GWAS 等）研究プロジェクト。
+バイオバンク・ジャパン（BBJ）データを用いて、**味覚（TAS）・嗅覚（OR）・アルコール代謝（ADH/ALDH）関連遺伝子**と脳神経疾患（脳梗塞、脳動脈瘤・SAH、てんかん、認知症、ALS、脳出血）の関連を調べる研究。候補遺伝子 PheWAS とマルチオミックス統合解析を行う。
 
-> **研究テーマ:** _（記入予定：対象形質・仮説・主要アウトカム）_
+- 研究計画: [`docs/study_plan.md`](docs/study_plan.md)
+- 計画の検討メモ: [`docs/study_plan_review.md`](docs/study_plan_review.md)
+- 先行研究: [`docs/literature/literature_review.md`](docs/literature/literature_review.md)
+- PubMed 検索: `python3 scripts/00_setup/pubmed_search.py "<query>"`
 
 ## ディレクトリ構成
 
@@ -30,8 +33,8 @@
 1. データ利用承認・倫理審査承認の取得（`docs/data_access.md`）
 2. 表現型定義（症例/対照・量的形質）と共変量の確定
 3. QC：サンプル（コールレート, 性別不一致, 近縁, PCA外れ値）／バリアント（コールレート, HWE, MAF, INFO）
-4. 関連解析：REGENIE（二値形質の不均衡に強い・近縁を許容）を第一候補
-5. 事後解析：領域プロット、条件付き解析、Fine-mapping（SuSiE 等）、LDSC、他コホート（UKB / FinnGen / GBMI 等）での再現・メタ解析
+4. 候補遺伝子 × 6 疾患の関連解析（SAIGE / REGENIE。症例と対照の不均衡に対応）、TAS2R38 のハプロタイプ解析、WGS による遺伝子単位の希少バリアント検定
+5. マルチオミックス：pQTL / mQTL、媒介分析、MR、colocalization
 6. 結果公開：サマリー統計を JENGER / NBDC 等で公開
 
 ## データ取扱いの原則

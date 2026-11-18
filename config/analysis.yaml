@@ -8,13 +8,24 @@ paths:
   phenotype: data/processed/phenotype.tsv
   covariates: data/processed/covariates.tsv
 
-phenotype:
-  name: CHANGE_ME
-  type: binary          # binary | quantitative
-  case_definition: ""
-  control_definition: ""
+outcomes:   # 症例の定義は BBJ の対象疾患コード／既往歴で確定させる
+  - cerebral_infarction
+  - cerebral_aneurysm_sah
+  - epilepsy
+  - dementia              # 対象 47 疾患外 → 症例数を要照会
+  - als
+  - intracerebral_hemorrhage  # 対象 47 疾患外 → 症例数を要照会
+control_definition: "6疾患および関連する脳血管・神経疾患のないBBJ登録者"
 
-covariates: [age, sex, PC1, PC2, PC3, PC4, PC5, PC6, PC7, PC8, PC9, PC10]
+candidate_variants:   # 事前仮説（検証的解析）
+  ALDH2: [rs671]
+  ADH1B: [rs1229984]
+  TAS2R38: [rs713598, rs1726866, rs10246939]   # ハプロタイプ PAV/AVI として解析
+candidate_gene_families: [TAS1R, TAS2R, OR, ADH, ALDH]
+gene_window_kb: 50
+
+covariates_main: [age, sex, PC1, PC2, PC3, PC4, PC5, PC6, PC7, PC8, PC9, PC10, genotyping_batch]
+covariates_extended: [bmi, smoking, drinking]   # 飲酒は rs671/rs1229984 の媒介因子 → 副次解析のみ
 
 qc:
   sample_call_rate: 0.98
@@ -24,7 +35,8 @@ qc:
   imputation_info: 0.3  # Rsq / INFO
   relatedness_pi_hat: 0.1875  # 2親等（REGENIE 使用時は除外不要）
 
-gwas:
-  tool: regenie
-  significance: 5.0e-8
-  suggestive: 1.0e-6
+association:
+  tool: saige   # or regenie (Firth)
+  multiple_testing:
+    confirmatory: bonferroni
+    exploratory: fdr_bh
